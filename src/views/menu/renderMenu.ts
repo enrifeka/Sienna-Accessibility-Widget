@@ -57,16 +57,16 @@ export default function renderMenu() {
 
     // *** Translations ***
     if (!LANGUAGES.some(lang => lang.code === userSettings.lang)) {
-        userSettings.lang = "en";
+        userSettings.lang = "sq";
     }
 
-    const $lang = $menu.querySelector("#asw-language");
-    const langOptions = LANGUAGES.map((lang: ILanguage) => `<option value="${lang.code}">${lang.label}</option>`).join('');
-    $lang.innerHTML = langOptions;
-    $lang.value = userSettings.lang;
-    $lang.addEventListener("change", (event) => {
-        changeLanguage(event.target.value);
-    });
+    //const $lang = $menu.querySelector("#asw-language");
+    //const langOptions = LANGUAGES.map((lang: ILanguage) => `<option value="${lang.code}">${lang.label}</option>`).join('');
+    //$lang.innerHTML = langOptions;
+    //$lang.value = userSettings.lang;
+    //$lang.addEventListener("change", (event) => {
+    //    changeLanguage(event.target.value);
+    //});
 
     // *** Utils ***
     $container.querySelectorAll('.asw-menu-close, .asw-overlay').forEach((el) =>
