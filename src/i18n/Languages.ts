@@ -40,6 +40,7 @@ export const LANGUAGES: ILanguage[] = [
   { code: "si", label: "Slovenščina (Slovene)" },
   { code: "sk", label: "slovenčina (Slovak)" },
   { code: "sl", label: "slovenščina (Slovenian)" },
+  { code: "sq", label: "Shqip (Albanian)" },
   { code: "sr", label: "Srpski (Serbian)" },
   { code: "sr-SP", label: "Српски (Serbian Cyrillic)" },
   { code: "sv", label: "Svenska (Swedish)" },
