@@ -1,4 +1,6 @@
 export const LANGUAGES: ILanguage[] = [
+  { code: "sq", label: "Shqip (Albanian)" },
+  { code: "en", label: "English (English)" },
   { code: "am", label: "አማርኛ (Amharic)" },
   { code: "ar", label: "العربية (Arabic)" },
   { code: "bg", label: "български (Bulgarian)" },
@@ -8,7 +10,6 @@ export const LANGUAGES: ILanguage[] = [
   { code: "da", label: "Danish (Denmark)" },
   { code: "de", label: "Deutsch (German)" },
   { code: "el", label: "Ελληνικά (Greek)" },
-  { code: "en", label: "English (English)" },
   { code: "es", label: "Español (Spanish)" },
   { code: "fa", label: "فارسی (Persian)" },
   { code: "fi", label: "suomi (Finnish)" },
@@ -40,7 +41,6 @@ export const LANGUAGES: ILanguage[] = [
   { code: "si", label: "Slovenščina (Slovene)" },
   { code: "sk", label: "slovenčina (Slovak)" },
   { code: "sl", label: "slovenščina (Slovenian)" },
-  { code: "sq", label: "Shqip (Albanian)" },
   { code: "sr", label: "Srpski (Serbian)" },
   { code: "sr-SP", label: "Српски (Serbian Cyrillic)" },
   { code: "sv", label: "Svenska (Swedish)" },
