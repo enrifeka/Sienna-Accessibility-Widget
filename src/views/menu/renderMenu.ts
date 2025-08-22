@@ -31,7 +31,7 @@ export default function renderMenu() {
         $menu.style.left = 'auto';
     }
 
-    $menu.querySelector(".content").innerHTML = renderButtons(ContentButtons);
+    $menu.querySelector(".asw-content").innerHTML = renderButtons(ContentButtons);
     $menu.querySelector(".tools").innerHTML = renderButtons(ToolButtons, 'asw-tools');
     $menu.querySelector(".contrast").innerHTML = renderButtons(FilterButtons, 'asw-filter');
 
