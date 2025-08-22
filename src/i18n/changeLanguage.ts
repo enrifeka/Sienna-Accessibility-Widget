@@ -10,7 +10,7 @@ export function changeLanguage(newLang) {
     newLang = String(newLang || "").toLowerCase();
 
     if (!LANGUAGES.some(lang => lang.code === newLang)) {
-        newLang = "en";
+        newLang = "sq";
     }
 
     if (userSettings.lang !== newLang) {

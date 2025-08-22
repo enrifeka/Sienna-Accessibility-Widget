@@ -7,5 +7,5 @@ export function getDefaultLanguage() {
         navigator?.language ||
         document.querySelector('meta[http-equiv="Content-Language"]')?.content
 
-    return language?.split(/[-_]/)?.[0]?.trim() || "en";
+    return language?.split(/[-_]/)?.[0]?.trim() || "sq";
 }
