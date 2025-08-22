@@ -39,9 +39,7 @@ export default function renderMenu() {
     const states = userSettings?.states;
 
     const fontSize = Number(states?.fontSize) || 1;
-    if (fontSize != 1) {
-        $menu.querySelector(".asw-amount").innerHTML = `${fontSize * 100}%`;
-    }
+    $menu.querySelector(".asw-amount").innerHTML = `${fontSize * 100}%`;
 
     if (states) {
         const buttons = Array.from($menu.querySelectorAll('.asw-btn'));
