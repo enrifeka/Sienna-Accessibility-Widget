@@ -9,7 +9,7 @@ export function getDefaultLanguage() {
         // Example value: c=en-US|uic=en-US
         const match = cultureCookie.match(/c=([a-zA-Z-]+)/);
         if (match) {
-            language = match[1];
+            language = match[1].split(/[-_]/)[0];
         }
     }
 
