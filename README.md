@@ -39,3 +39,7 @@ We welcome contributions from anyone who is interested in improving this. If you
 
 ## 🎓 License
 Sienna is released under the MIT License
+
+
+# create prod javascript
+npm run build --minify
