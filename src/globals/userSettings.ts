@@ -1,4 +1,5 @@
 import { getStorageData, saveStorageData } from "@/storage";
+import { getDefaultLanguage } from "@/i18n/getDefaultLanguage"
 
 export let userSettings = {
   lang: undefined,
@@ -22,5 +23,9 @@ export function saveUserSettings() {
 }
 
 export function getSavedUserSettings() {
-    return getStorageData(STORAGE_KEY);
+    const savedSettings = getStorageData(STORAGE_KEY);
+    if (savedSettings) {
+        savedSettings.lang = getDefaultLanguage();
+    }
+    return savedSettings;
 }
