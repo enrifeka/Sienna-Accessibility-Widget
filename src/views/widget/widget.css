@@ -28,10 +28,10 @@
     display: flex;
     cursor: pointer;
     border: 3px solid white !important;
-    outline: 5px solid #0048ff!important;
+    outline: 5px solid #FF0000 !important;
     text-decoration: none !important;
-    background: rgb(50,108,255) !important;
-    background: linear-gradient(96deg, rgba(50,108,255,1) 0%, rgba(0,72,255,1) 100%) !important;
+    background: rgb(255, 54, 54) !important;
+    background: linear-gradient(96deg, rgb(255, 54, 54) 0%, rgba(255, 0, 0, 1) 100%) !important;
 }
 
 .asw-menu-btn svg {
